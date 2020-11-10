@@ -18,6 +18,7 @@ $ npm i -D @chialab/eslint-config --registry=https://npm.pkg.github.com
 
 Create a `.eslintrc.json` file and add the configuration:
 
+**.eslintrc.json**
 ```json
 {
     "extends": [
@@ -28,16 +29,27 @@ Create a `.eslintrc.json` file and add the configuration:
 
 ## Install globally
 
-Install global ESLint depenendencies:
+Install ESLint globally:
 
 ```
-$ npm install -g eslint @chialab/eslint-config
+$ npm i -g eslint
+```
+
+Install `@chialab/eslint-config`:
+
+```
+$ npm i -g @chialab/eslint-config --registry=https://npm.pkg.github.com
 ```
 
 Create a `.eslintrc.json` file in your HOME path and add the configuration:
 
-```sh
-$ echo '{\n    "extends": [\n        "plugin:@chialab/eslint-config"\n    ]\n}' > ~/.eslintrc.json
+**~/.eslintrc.json**
+```json
+{
+    "extends": [
+        "plugin:@chialab/eslint-config"
+    ]
+}
 ```
 
 Install the ESLint extension for your IDE (optional):
