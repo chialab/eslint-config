@@ -17,9 +17,6 @@
   "bugs": {
     "url": "https://github.com/chialab/eslint-config/issues"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "homepage": "https://github.com/chialab/eslint-config",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.9.1",

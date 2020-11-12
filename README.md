@@ -13,7 +13,7 @@ $ npm i -D eslint
 Install `@chialab/eslint-config`:
 
 ```sh
-$ npm i -D @chialab/eslint-config --registry=https://npm.pkg.github.com
+$ npm i -D @chialab/eslint-config
 ```
 
 Create a `.eslintrc.json` file and add the configuration:
@@ -38,7 +38,7 @@ $ npm i -g eslint
 Install `@chialab/eslint-config`:
 
 ```
-$ npm i -g @chialab/eslint-config --registry=https://npm.pkg.github.com
+$ npm i -g @chialab/eslint-config
 ```
 
 Create a `.eslintrc.json` file in your HOME path and add the configuration:
