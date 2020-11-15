@@ -59,65 +59,66 @@ const RULES = {
 };
 
 module.exports = {
-    configs: {
-        recommended: {
+    extends: [
+        'eslint:recommended',
+        'plugin:jsx-a11y/recommended',
+        'plugin:mocha/recommended',
+    ],
+    globals: {
+        globalThis: true,
+    },
+    env: {
+        es6: true,
+        browser: true,
+        node: true,
+        mocha: true,
+    },
+    plugins: [
+        'babel',
+        'jsx-a11y',
+        'mocha',
+        'mocha-no-only',
+    ],
+    parser: 'babel-eslint',
+    parserOptions: {
+        sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true,
+            generators: false,
+            objectLiteralDuplicateProperties: false,
+        },
+    },
+    rules: RULES,
+    ignorePatterns: [
+        'node_modules',
+        'dist',
+        'public'
+    ],
+    overrides: [
+        {
+            files: [
+                '*.ts',
+                '*.tsx',
+            ],
             extends: [
                 'eslint:recommended',
                 'plugin:jsx-a11y/recommended',
+                'plugin:@typescript-eslint/recommended',
                 'plugin:mocha/recommended',
             ],
-            globals: {
-                globalThis: true,
-            },
-            env: {
-                es6: true,
-                browser: true,
-                node: true,
-                mocha: true,
+            parser: '@typescript-eslint/parser',
+            parserOptions: {
+                ecmaFeatures: {
+                    jsx: true,
+                },
             },
             plugins: [
-                'babel',
                 'jsx-a11y',
+                '@typescript-eslint',
                 'mocha',
                 'mocha-no-only',
             ],
-            parser: 'babel-eslint',
-            parserOptions: {
-                sourceType: 'module',
-                ecmaFeatures: {
-                    jsx: true,
-                    generators: false,
-                    objectLiteralDuplicateProperties: false,
-                },
-            },
             rules: RULES,
-            overrides: [
-                {
-                    files: [
-                        '*.ts',
-                        '*.tsx',
-                    ],
-                    extends: [
-                        'eslint:recommended',
-                        'plugin:jsx-a11y/recommended',
-                        'plugin:@typescript-eslint/recommended',
-                        'plugin:mocha/recommended',
-                    ],
-                    parser: '@typescript-eslint/parser',
-                    parserOptions: {
-                        ecmaFeatures: {
-                            jsx: true,
-                        },
-                    },
-                    plugins: [
-                        'jsx-a11y',
-                        '@typescript-eslint',
-                        'mocha',
-                        'mocha-no-only',
-                    ],
-                    rules: RULES,
-                },
-            ],
         },
-    },
+    ],
 };
