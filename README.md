@@ -2,6 +2,13 @@
 
 Chialab's linting rules for [ESLint](https://eslint.org/).
 
+It includes:
+* recommended default ESLint rules
+* [`eslint-plugin-jsx-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y) for JSX templates accessibility check
+* [`eslint-plugin-mocha`](https://www.npmjs.com/package/eslint-plugin-mocha) and [`eslint-plugin-mocha-no-only`](https://www.npmjs.com/package/eslint-plugin-mocha-no-only) for mocha based test environments
+* [`eslint-plugin-babel`](https://www.npmjs.com/package/eslint-plugin-babel) for unsupported JavaScript features
+* [`@typescript-eslint/eslint-plugin`](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) for TypeScript language
+
 ## Usage
 
 Install ESLint:
@@ -22,35 +29,12 @@ Create a `.eslintrc.json` file and add the configuration:
 ```json
 {
     "extends": [
-        "plugin:@chialab/eslint-config"
+        "@chialab"
     ]
 }
 ```
 
-## Install globally
-
-Install ESLint globally:
-
-```
-$ npm i -g eslint
-```
-
-Install `@chialab/eslint-config`:
-
-```
-$ npm i -g @chialab/eslint-config
-```
-
-Create a `.eslintrc.json` file in your HOME path and add the configuration:
-
-**~/.eslintrc.json**
-```json
-{
-    "extends": [
-        "plugin:@chialab/eslint-config"
-    ]
-}
-```
+## IDE
 
 Install the ESLint extension for your IDE (optional):
 
