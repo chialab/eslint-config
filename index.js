@@ -52,10 +52,10 @@ const RULES = {
     'max-statements': [0, 10],
     'no-bitwise': 0,
     'no-plusplus': 0,
-    'no-unused-vars': [1],
-    'no-console': [1],
-    'require-atomic-updates': [0],
-    'mocha-no-only/mocha-no-only': [1],
+    'no-unused-vars': 1,
+    'no-console': 1,
+    'require-atomic-updates': 0,
+    'mocha-no-only/mocha-no-only': 1,
 };
 
 module.exports = {
@@ -118,7 +118,14 @@ module.exports = {
                 'mocha',
                 'mocha-no-only',
             ],
-            rules: RULES,
+            rules: {
+                ...RULES,
+                '@typescript-eslint/no-inferrable-types': 0,
+                '@typescript-eslint/explicit-module-boundary-types': 0,
+                '@typescript-eslint/no-namespace': [1, {
+                    allowDeclarations: true,
+                }],
+            },
         },
     ],
 };
