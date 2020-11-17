@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/chialab/eslint-config/compare/v1.0.1...v1.1.0) (2020-11-17)
+
+
+### Features
+
+* accessibility check for lit templates ([d9ee0db](https://github.com/chialab/eslint-config/commit/d9ee0db6926c9fee4ea05fbe83359a472faced82))
+
+
+### Bug Fixes
+
+* less stricter typescript rules ([f140199](https://github.com/chialab/eslint-config/commit/f1401999e3da7054ab661d08333edd97d42ddea4))
+
 ### [1.0.1](https://github.com/chialab/eslint-config/compare/v1.0.0...v1.0.1) (2020-11-15)
 
 ## 1.0.0 (2020-11-15)
