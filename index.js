@@ -62,6 +62,7 @@ module.exports = {
     extends: [
         'eslint:recommended',
         'plugin:jsx-a11y/recommended',
+        'plugin:lit-a11y/recommended',
         'plugin:mocha/recommended',
     ],
     globals: {
@@ -76,6 +77,7 @@ module.exports = {
     plugins: [
         'babel',
         'jsx-a11y',
+        'lit-a11y',
         'mocha',
         'mocha-no-only',
     ],
@@ -103,6 +105,7 @@ module.exports = {
             extends: [
                 'eslint:recommended',
                 'plugin:jsx-a11y/recommended',
+                'plugin:lit-a11y/recommended',
                 'plugin:@typescript-eslint/recommended',
                 'plugin:mocha/recommended',
             ],
@@ -113,8 +116,9 @@ module.exports = {
                 },
             },
             plugins: [
-                'jsx-a11y',
                 '@typescript-eslint',
+                'jsx-a11y',
+                'lit-a11y',
                 'mocha',
                 'mocha-no-only',
             ],
