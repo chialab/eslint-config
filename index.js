@@ -129,6 +129,7 @@ module.exports = {
                 '@typescript-eslint/no-namespace': [1, {
                     allowDeclarations: true,
                 }],
+                '@typescript-eslint/ban-types': 1,
             },
         },
     ],
