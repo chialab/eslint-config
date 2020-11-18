@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/chialab/eslint-config/compare/v1.1.0...v1.1.1) (2020-11-18)
+
+
+### Bug Fixes
+
+* ts ban types rule ([a6f3057](https://github.com/chialab/eslint-config/commit/a6f30578020e1675e48693a1f8e3864f0ac767df))
+
 ## [1.1.0](https://github.com/chialab/eslint-config/compare/v1.0.1...v1.1.0) (2020-11-17)
 
 
