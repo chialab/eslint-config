@@ -125,11 +125,17 @@ module.exports = {
             rules: {
                 ...RULES,
                 '@typescript-eslint/no-inferrable-types': 0,
+                '@typescript-eslint/explicit-function-return-type': 0,
                 '@typescript-eslint/explicit-module-boundary-types': 0,
+                '@typescript-eslint/no-empty-function': 0,
+                '@typescript-eslint/member-delimiter-style': 1,
                 '@typescript-eslint/no-namespace': [1, {
                     allowDeclarations: true,
                 }],
                 '@typescript-eslint/ban-types': 1,
+                '@typescript-eslint/no-explicit-any': [1, {
+                    ignoreRestArgs: true,
+                }],
             },
         },
     ],
