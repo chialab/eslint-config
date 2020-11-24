@@ -56,7 +56,6 @@ const RULES = {
     'no-console': 1,
     'require-atomic-updates': 0,
     'mocha/no-mocha-arrows': 0,
-    'mocha-no-only/mocha-no-only': 1,
 };
 
 module.exports = {
@@ -83,7 +82,6 @@ module.exports = {
         'jsx-a11y',
         'lit-a11y',
         'mocha',
-        'mocha-no-only',
     ],
     parser: 'babel-eslint',
     parserOptions: {
@@ -124,10 +122,10 @@ module.exports = {
                 'jsx-a11y',
                 'lit-a11y',
                 'mocha',
-                'mocha-no-only',
             ],
             rules: {
                 ...RULES,
+                '@typescript-eslint/ban-types': 0,
                 '@typescript-eslint/no-inferrable-types': 0,
                 '@typescript-eslint/explicit-function-return-type': 0,
                 '@typescript-eslint/explicit-module-boundary-types': 0,
@@ -136,7 +134,6 @@ module.exports = {
                 '@typescript-eslint/no-namespace': [1, {
                     allowDeclarations: true,
                 }],
-                '@typescript-eslint/ban-types': 1,
                 '@typescript-eslint/no-explicit-any': [1, {
                     ignoreRestArgs: true,
                 }],
