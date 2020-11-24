@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/chialab/eslint-config/compare/v1.1.2...v1.1.3) (2020-11-24)
+
+
+### Bug Fixes
+
+* mocha rules ([9707536](https://github.com/chialab/eslint-config/commit/9707536686081832ad9b917ff1a725bde4a246b2))
+
 ### [1.1.2](https://github.com/chialab/eslint-config/compare/v1.1.1...v1.1.2) (2020-11-23)
 
 
