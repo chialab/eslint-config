@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/chialab/eslint-config/compare/v1.1.3...v1.1.4) (2020-11-24)
+
+
+### Bug Fixes
+
+* remove default unused vars in typescript ([5bbd989](https://github.com/chialab/eslint-config/commit/5bbd9890d0008d27fc665f6c76f5fef4dae869b7))
+
 ### [1.1.3](https://github.com/chialab/eslint-config/compare/v1.1.2...v1.1.3) (2020-11-24)
 
 
