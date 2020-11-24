@@ -55,6 +55,7 @@ const RULES = {
     'no-unused-vars': 1,
     'no-console': 1,
     'require-atomic-updates': 0,
+    'mocha/no-mocha-arrows': 0,
     'mocha-no-only/mocha-no-only': 1,
 };
 
@@ -67,6 +68,9 @@ module.exports = {
     ],
     globals: {
         globalThis: true,
+        assert: true,
+        expect: true,
+        should: true,
     },
     env: {
         es6: true,
