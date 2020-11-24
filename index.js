@@ -125,6 +125,7 @@ module.exports = {
             ],
             rules: {
                 ...RULES,
+                'no-unused-vars': 0,
                 '@typescript-eslint/ban-types': 0,
                 '@typescript-eslint/no-inferrable-types': 0,
                 '@typescript-eslint/explicit-function-return-type': 0,
