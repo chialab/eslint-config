@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.6](https://github.com/chialab/eslint-config/compare/v1.1.5...v1.1.6) (2020-12-03)
+
+
+### Bug Fixes
+
+* ignore JSX namespace ([b2995e7](https://github.com/chialab/eslint-config/commit/b2995e73868c25d7f884407327a7b3de9daa8cb0))
+
 ### [1.1.5](https://github.com/chialab/eslint-config/compare/v1.1.4...v1.1.5) (2020-11-24)
 
 
