@@ -126,6 +126,9 @@ module.exports = {
             rules: {
                 ...RULES,
                 'no-unused-vars': 0,
+                '@typescript-eslint/no-unused-vars': [1, {
+                    varsIgnorePattern: 'JSX',
+                }],
                 '@typescript-eslint/ban-types': 0,
                 '@typescript-eslint/no-this-alias': 0,
                 '@typescript-eslint/no-inferrable-types': 0,
