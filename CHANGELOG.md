@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.7-beta.3](https://github.com/chialab/eslint-config/compare/v1.1.7-beta.2...v1.1.7-beta.3) (2020-12-11)
+
+
+### Bug Fixes
+
+* place files under overrides ([779582e](https://github.com/chialab/eslint-config/commit/779582e3cf9dc4b3f86d5295c27e61a3be78b06d))
+
+### [1.1.7-beta.2](https://github.com/chialab/eslint-config/compare/v1.1.7-beta.1...v1.1.7-beta.2) (2020-12-11)
+
+### [1.1.7-beta.1](https://github.com/chialab/eslint-config/compare/v1.1.7-beta.0...v1.1.7-beta.1) (2020-12-11)
+
+### [1.1.7-beta.0](https://github.com/chialab/eslint-config/compare/v1.1.6...v1.1.7-beta.0) (2020-12-11)
+
 ### [1.1.6](https://github.com/chialab/eslint-config/compare/v1.1.5...v1.1.6) (2020-12-03)
 
 
