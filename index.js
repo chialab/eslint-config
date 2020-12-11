@@ -1,6 +1,6 @@
-const base = require('./configs/base');
-const javascript = require('./configs/javascript');
-const typescript = require('./configs/typescript');
+const base = require('./base');
+const javascript = require('./javascript');
+const typescript = require('./typescript');
 
 module.exports = {
     configs: {

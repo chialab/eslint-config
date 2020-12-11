@@ -29,8 +29,8 @@ Create a `.eslintrc.json` file and add the configuration:
 ```jsonc
 {
     "extends": [
-        "@chialab/javascript"
-        // "@chialab/typescript"
+        "@chialab/eslint-config/javascript"
+        // "@chialab/eslint-config/typescript"
     ]
 }
 ```

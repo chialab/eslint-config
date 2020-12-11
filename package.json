@@ -8,8 +8,7 @@
   "files": [
     "LICENSE",
     "README.md",
-    "index.js",
-    "configs"
+    "*.js"
   ],
   "scripts": {
     "release": "standard-version"
