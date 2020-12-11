@@ -1,11 +1,15 @@
 module.exports = {
-    files: [
-        '*.js',
-        '*.jsx',
-        '*.mjs',
-        '*.cjs',
+    overrides: [
+        {
+            files: [
+                '*.js',
+                '*.jsx',
+                '*.mjs',
+                '*.cjs',
+            ],
+        },
     ],
     extends: [
-        './base'
+        './base',
     ],
 };

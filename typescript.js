@@ -1,7 +1,11 @@
 module.exports = {
-    files: [
-        '*.ts',
-        '*.tsx',
+    overrides: [
+        {
+            files: [
+                '*.ts',
+                '*.tsx',
+            ],
+        },
     ],
     extends: [
         './base',
