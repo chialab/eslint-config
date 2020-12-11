@@ -26,10 +26,11 @@ $ npm i -D @chialab/eslint-config
 Create a `.eslintrc.json` file and add the configuration:
 
 **.eslintrc.json**
-```json
+```jsonc
 {
     "extends": [
-        "@chialab"
+        "@chialab/javascript"
+        // "@chialab/typescript"
     ]
 }
 ```
