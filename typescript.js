@@ -8,8 +8,8 @@ module.exports = {
         },
     ],
     extends: [
-        './base',
         'plugin:@typescript-eslint/recommended',
+        './base',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
