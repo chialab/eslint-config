@@ -8,6 +8,10 @@ module.exports = {
         },
     ],
     extends: [
+        'eslint:recommended',
+        'plugin:jsx-a11y/recommended',
+        'plugin:lit-a11y/recommended',
+        'plugin:mocha/recommended',
         'plugin:@typescript-eslint/recommended',
         './base',
     ],

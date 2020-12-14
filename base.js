@@ -1,10 +1,4 @@
 module.exports = {
-    extends: [
-        'eslint:recommended',
-        'plugin:jsx-a11y/recommended',
-        'plugin:lit-a11y/recommended',
-        'plugin:mocha/recommended',
-    ],
     globals: {
         globalThis: true,
         assert: true,
