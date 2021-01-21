@@ -17,7 +17,7 @@ module.exports = {
         'lit-a11y',
         'mocha',
     ],
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
     parserOptions: {
         sourceType: 'module',
         ecmaFeatures: {
