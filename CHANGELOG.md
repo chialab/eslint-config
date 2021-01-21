@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.4](https://github.com/chialab/eslint-config/compare/v2.0.3...v2.0.4) (2021-01-21)
+
+
+### Bug Fixes
+
+* babel parser configuration ([c02d6a0](https://github.com/chialab/eslint-config/commit/c02d6a01cb5d9896e68d3df1b37f6377477d73cf))
+
 ### [2.0.3](https://github.com/chialab/eslint-config/compare/v2.0.2...v2.0.3) (2021-01-21)
 
 
