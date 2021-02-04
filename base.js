@@ -16,7 +16,9 @@ module.exports = {
         'lit-a11y',
         'mocha',
     ],
+    parser: '@babel/eslint-parser',
     parserOptions: {
+        requireConfigFile: false,
         ecmaVersion: 12,
         sourceType: 'module',
         ecmaFeatures: {
@@ -26,11 +28,19 @@ module.exports = {
             experimentalDecorators: true,
             objectLiteralDuplicateProperties: false,
         },
+        babelOptions: {
+            presets: [
+                ['@babel/preset-env', {
+                    shippedProposals: true,
+                }],
+            ],
+        },
     },
     rules: {
         'quotes': [1, 'single'],
         'semi': [1, 'always'],
         'indent': [1, 4, {
+            ignoredNodes: ['TemplateLiteral'],
             SwitchCase: 1,
         }],
         'func-names': 0,
