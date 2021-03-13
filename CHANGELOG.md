@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.1](https://github.com/chialab/eslint-config/compare/v2.2.0...v2.2.1) (2021-03-13)
+
 ## [2.1.0](https://github.com/chialab/eslint-config/compare/v2.0.4...v2.1.0) (2021-01-21)
 
 ### [2.0.4](https://github.com/chialab/eslint-config/compare/v2.0.3...v2.0.4) (2021-01-21)
