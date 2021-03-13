@@ -25,6 +25,7 @@
     "eslint": ">= 3"
   },
   "dependencies": {
+    "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
     "@typescript-eslint/eslint-plugin": "^4.8.2",
