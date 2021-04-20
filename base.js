@@ -34,6 +34,9 @@ module.exports = {
                     shippedProposals: true,
                 }],
             ],
+            plugins: [
+                '@babel/plugin-syntax-jsx',
+            ],
         },
     },
     rules: {
