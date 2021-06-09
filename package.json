@@ -1,7 +1,7 @@
 {
   "name": "@chialab/eslint-config",
   "description": "Chialab's linting rules for ESLint.",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "license": "MIT",
   "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",
   "main": "index.js",
