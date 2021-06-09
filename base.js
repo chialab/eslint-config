@@ -47,7 +47,7 @@ module.exports = {
             SwitchCase: 1,
         }],
         'func-names': 0,
-        'prefer-const': 0,
+        'prefer-const': 1,
         'space-before-function-paren': [1, {
             anonymous: 'never',
             named: 'never',
