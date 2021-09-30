@@ -1,15 +1,15 @@
 module.exports = {
     globals: {
-        globalThis: true,
         assert: true,
         expect: true,
         should: true,
     },
     env: {
-        es6: true,
-        browser: true,
-        node: true,
-        mocha: true,
+        'es6': true,
+        'es2017': true,
+        'es2020': true,
+        'es2021': true,
+        'mocha': true,
     },
     plugins: [
         'jsx-a11y',
@@ -41,6 +41,7 @@ module.exports = {
         },
     },
     rules: {
+        'no-undef': 2,
         'quotes': [1, 'single'],
         'semi': [1, 'always'],
         'indent': [1, 4, {
