@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/chialab/eslint-config/compare/v2.4.0...v3.0.0) (2021-09-30)
+
+
+### Features
+
+* add linter rules for import/export statements ([7ee7c41](https://github.com/chialab/eslint-config/commit/7ee7c4186a41b7ffbd14e6ebb9756160971d7d9a))
+
 ## [2.4.0](https://github.com/chialab/eslint-config/compare/v2.3.1...v2.4.0) (2021-06-18)
 
 
