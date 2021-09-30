@@ -8,7 +8,9 @@
   "files": [
     "LICENSE",
     "README.md",
-    "*.js"
+    "*.js",
+    "javascript/*.js",
+    "typescript/*.js"
   ],
   "scripts": {
     "release": "standard-version"
