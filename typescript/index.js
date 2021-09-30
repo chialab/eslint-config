@@ -2,6 +2,10 @@ module.exports = {
     overrides: [
         {
             files: [
+                '*.js',
+                '*.jsx',
+                '*.mjs',
+                '*.cjs',
                 '*.ts',
                 '*.tsx',
             ],
@@ -51,5 +55,26 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': [1, {
             ignoreRestArgs: true,
         }],
+    },
+    settings: {
+        'import/parsers': {
+            '@typescript-eslint/parser': [
+                '.js',
+                '.jsx',
+                '.mjs',
+                '.cjs',
+                '.ts',
+                '.tsx',
+            ],
+        },
+        'import/resolver': {
+            'typescript': {
+                'alwaysTryTypes': true,
+                'project': [
+                    'tsconfig.json',
+                    'packages/*/tsconfig.json',
+                ],
+            },
+        },
     },
 };

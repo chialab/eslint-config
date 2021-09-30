@@ -12,6 +12,7 @@ module.exports = {
         'mocha': true,
     },
     plugins: [
+        'import',
         'jsx-a11y',
         'lit-a11y',
         'mocha',
@@ -105,7 +106,32 @@ module.exports = {
         'no-unused-vars': 1,
         'no-console': 1,
         'require-atomic-updates': 0,
+        'import/no-unresolved': 2,
+        'import/no-self-import': 2,
+        'import/no-absolute-path': 2,
+        'import/export': 2,
+        'import/first': 1,
+        'import/no-duplicates': 1,
+        'import/extensions': [2, 'never', {
+            ignorePackages: true,
+            pattern: {
+                js: 'always',
+                jsx: 'always',
+                mjs: 'always',
+                cjs: 'always',
+                json: 'always',
+            },
+        }],
+        'import/newline-after-import': 1,
         'mocha/no-mocha-arrows': 0,
+    },
+    settings: {
+        'import/extensions': [
+            '.ts',
+            '.tsx',
+            '.js',
+            '.jsx',
+        ],
     },
     ignorePatterns: [
         'node_modules',
