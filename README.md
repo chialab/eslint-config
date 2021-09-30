@@ -29,8 +29,18 @@ Create a `.eslintrc.json` file and add the configuration:
 ```jsonc
 {
     "extends": [
+        // JavaScript environment
         "@chialab/eslint-config/javascript"
-        // "@chialab/eslint-config/typescript"
+        // JavaScript/Browser specific environment with global DOM support
+        "@chialab/eslint-config/javascript/browser"
+        // JavaScript/Node specific environment
+        "@chialab/eslint-config/javascript/node"
+        // TypeScript environment
+        "@chialab/eslint-config/typescript"
+        // TypeScript/Browser specific environment with global DOM support
+        "@chialab/eslint-config/typescript/browser"
+        // TypeScript/Node specific environment
+        "@chialab/eslint-config/typescript/node"
     ]
 }
 ```

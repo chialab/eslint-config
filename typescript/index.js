@@ -2,24 +2,37 @@ module.exports = {
     overrides: [
         {
             files: [
+                '*.js',
+                '*.jsx',
+                '*.mjs',
+                '*.cjs',
                 '*.ts',
                 '*.tsx',
             ],
         },
     ],
+    env: {
+        'es6': true,
+        'es2017': true,
+        'es2020': true,
+        'es2021': true,
+        'shared-node-browser': true,
+        'mocha': true,
+    },
     extends: [
         'eslint:recommended',
         'plugin:jsx-a11y/recommended',
         'plugin:lit-a11y/recommended',
         'plugin:mocha/recommended',
         'plugin:@typescript-eslint/recommended',
-        './base',
+        '../base',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
         },
+        project: 'tsconfig.json',
     },
     plugins: [
         '@typescript-eslint',
@@ -42,5 +55,26 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': [1, {
             ignoreRestArgs: true,
         }],
+    },
+    settings: {
+        'import/parsers': {
+            '@typescript-eslint/parser': [
+                '.js',
+                '.jsx',
+                '.mjs',
+                '.cjs',
+                '.ts',
+                '.tsx',
+            ],
+        },
+        'import/resolver': {
+            'typescript': {
+                'alwaysTryTypes': true,
+                'project': [
+                    'tsconfig.json',
+                    'packages/*/tsconfig.json',
+                ],
+            },
+        },
     },
 };
