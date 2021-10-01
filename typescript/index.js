@@ -55,6 +55,9 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': [1, {
             ignoreRestArgs: true,
         }],
+        '@typescript-eslint/consistent-type-imports': [1, {
+            prefer: 'type-imports',
+        }],
     },
     settings: {
         'import/parsers': {
