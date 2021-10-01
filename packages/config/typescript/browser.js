@@ -8,6 +8,13 @@ module.exports = {
         'node': false,
         'mocha': true,
     },
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true,
+        },
+        lib: ['ESNext', 'DOM'],
+        project: 'tsconfig.json',
+    },
     extends: [
         './index',
     ],
