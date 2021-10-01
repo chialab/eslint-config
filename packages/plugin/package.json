@@ -1,26 +1,26 @@
 {
-  "name": "@chialab/eslint-config",
-  "private": true,
+  "name": "@chialab/eslint-plugin",
   "description": "Chialab's linting rules for ESLint.",
   "version": "3.0.0",
   "license": "MIT",
   "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",
-  "scripts": {
-    "release": "standard-version"
-  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "*.js",
+    "rules/*.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chialab/eslint-config.git"
+    "url": "git+https://github.com/chialab/eslint-config.git",
+    "directory": "packages/plugin"
   },
   "bugs": {
     "url": "https://github.com/chialab/eslint-config/issues"
   },
   "homepage": "https://github.com/chialab/eslint-config",
-  "devDependencies": {
-    "lerna": "^4.0.0",
-    "typescript": "^4.4.3"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
 }

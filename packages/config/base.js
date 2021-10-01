@@ -16,6 +16,7 @@ module.exports = {
         'jsx-a11y',
         'lit-a11y',
         'mocha',
+        '@chialab',
     ],
     parser: '@babel/eslint-parser',
     parserOptions: {
@@ -42,7 +43,7 @@ module.exports = {
         },
     },
     rules: {
-        'no-undef': 2,
+        '@chialab/no-undef': 2,
         'quotes': [1, 'single'],
         'semi': [1, 'always'],
         'indent': [1, 4, {

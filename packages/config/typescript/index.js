@@ -32,6 +32,7 @@ module.exports = {
         ecmaFeatures: {
             jsx: true,
         },
+        lib: ['ESNext'],
         project: 'tsconfig.json',
     },
     plugins: [

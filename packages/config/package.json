@@ -1,0 +1,43 @@
+{
+  "name": "@chialab/eslint-config",
+  "description": "Chialab's linting rules for ESLint.",
+  "version": "3.0.1",
+  "license": "MIT",
+  "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "*.js",
+    "javascript/*.js",
+    "typescript/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chialab/eslint-config.git",
+    "directory": "packages/config"
+  },
+  "bugs": {
+    "url": "https://github.com/chialab/eslint-config/issues"
+  },
+  "homepage": "https://github.com/chialab/eslint-config",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.13",
+    "@babel/plugin-syntax-import-assertions": "^7.14.5",
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@chialab/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-lit-a11y": "^1.0.1",
+    "eslint-plugin-mocha": "^8.0.0"
+  }
+}
