@@ -3,6 +3,8 @@ module.exports = {
         assert: true,
         expect: true,
         should: true,
+        Worker: true,
+        SharedWorker: true,
     },
     env: {
         'es6': true,
