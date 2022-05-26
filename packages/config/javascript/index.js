@@ -24,4 +24,7 @@ module.exports = {
         'plugin:mocha/recommended',
         '../base',
     ],
+    rules: {
+        'import/no-unresolved': 2,
+    },
 };

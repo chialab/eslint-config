@@ -109,7 +109,6 @@ module.exports = {
         'no-unused-vars': 1,
         'no-console': 1,
         'require-atomic-updates': 0,
-        'import/no-unresolved': 2,
         'import/no-self-import': 2,
         'import/no-absolute-path': 2,
         'import/export': 2,
