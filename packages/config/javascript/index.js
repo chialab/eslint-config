@@ -26,5 +26,8 @@ module.exports = {
     ],
     rules: {
         'import/no-unresolved': 2,
+        'jsx-a11y/no-autofocus': [2, {
+            ignoreNonDOM: true
+        }],
     },
 };

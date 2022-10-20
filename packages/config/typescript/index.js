@@ -40,6 +40,9 @@ module.exports = {
     ],
     rules: {
         'no-unused-vars': 0,
+        'jsx-a11y/no-autofocus': [2, {
+            ignoreNonDOM: true
+        }],
         '@typescript-eslint/no-unused-vars': [1, {
             varsIgnorePattern: 'JSX',
         }],
@@ -69,6 +72,8 @@ module.exports = {
                 '.cjs',
                 '.ts',
                 '.tsx',
+                '.mts',
+                '.cts',
             ],
         },
         'import/resolver': {
