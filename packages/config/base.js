@@ -129,10 +129,14 @@ module.exports = {
     },
     settings: {
         'import/extensions': [
-            '.ts',
-            '.tsx',
             '.js',
             '.jsx',
+            '.mjs',
+            '.cjs',
+            '.ts',
+            '.tsx',
+            '.mts',
+            '.cts',
         ],
     },
     ignorePatterns: [

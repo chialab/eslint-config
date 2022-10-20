@@ -69,6 +69,8 @@ module.exports = {
                 '.cjs',
                 '.ts',
                 '.tsx',
+                '.mts',
+                '.cts',
             ],
         },
         'import/resolver': {
