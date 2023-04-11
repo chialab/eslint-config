@@ -33,7 +33,7 @@ module.exports = {
             jsx: true,
         },
         lib: ['ESNext'],
-        project: 'tsconfig.json',
+        project: false,
     },
     plugins: [
         '@typescript-eslint',
