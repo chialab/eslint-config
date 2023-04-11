@@ -46,7 +46,9 @@ module.exports = {
     },
     rules: {
         '@chialab/no-undef': 2,
-        'quotes': [1, 'single'],
+        'quotes': [1, 'single', {
+            avoidEscape: true,
+        }],
         'semi': [1, 'always'],
         'indent': [1, 4, {
             ignoredNodes: ['TemplateLiteral'],
