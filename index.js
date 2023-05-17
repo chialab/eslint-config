@@ -18,7 +18,6 @@ module.exports = {
         'jsx-a11y',
         'lit-a11y',
         'mocha',
-        '@chialab',
     ],
     parser: '@babel/eslint-parser',
     parserOptions: {
