@@ -1,5 +1,11 @@
 # @chialab/eslint-config
 
+## 4.0.1
+
+### Patch Changes
+
+- d332f03: Fixed overrides patterns.
+
 ## 4.0.0
 
 ### Major Changes
