@@ -1,5 +1,12 @@
 # @chialab/eslint-config
 
+## 4.0.0
+
+### Major Changes
+
+- d56a0b0: Use single configuration file.
+- d56a0b0: Remove formatting rules in favour of Prettier setup.
+
 ## 3.3.2
 
 ### Patch Changes
