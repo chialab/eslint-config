@@ -110,6 +110,7 @@ module.exports = {
         'jsx-a11y/no-autofocus': [2, {
             ignoreNonDOM: true
         }],
+        'lit-a11y/img-redundant-alt': 1,
         'mocha/no-mocha-arrows': 0,
     },
     settings: {
@@ -124,20 +125,15 @@ module.exports = {
             '.cts',
         ],
     },
-    ignorePatterns: [
-        'node_modules',
-        'dist',
-        'public'
-    ],
     overrides: [
         {
-            files: ['.js', '.jsx', '.mjs', '.cjs'],
+            files: ['*.js', '*.jsx', '*.mjs', '*.cjs'],
             rules: {
                 'import/no-unresolved': 0,
             },
         },
         {
-            files: ['.ts', '.tsx', '.mts', '.cts'],
+            files: ['*.ts', '*.tsx', '*.mts', '*.cts'],
             extends: [
                 'plugin:@typescript-eslint/recommended',
             ],
@@ -146,7 +142,7 @@ module.exports = {
             ],
             parser: '@typescript-eslint/parser',
             parserOptions: {
-                project: true,
+                project: false,
                 ecmaFeatures: {
                     jsx: true,
                 },

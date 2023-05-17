@@ -1128,11 +1128,6 @@
     human-id "^1.0.2"
     prettier "^2.7.1"
 
-"@chialab/eslint-plugin@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/@chialab/eslint-plugin/-/eslint-plugin-3.1.0.tgz#df330b13eecedcd5af6bfea9aa0f62c751d8ce7f"
-  integrity sha512-WWYVgGDpLRDppizhvjssfydFPH+uKKR39d4dEtkxQEhOgAkxkNNfpshLmBh5xPeug8iImccUizT9tXgAcsFEQQ==
-
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
   resolved "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"
