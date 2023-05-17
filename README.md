@@ -14,13 +14,21 @@ It includes:
 Install ESLint:
 
 ```sh
-$ npm i -D eslint
+npm i -D eslint
+```
+
+```sh
+yarn add -D eslint
 ```
 
 Install `@chialab/eslint-config`:
 
 ```sh
-$ npm i -D @chialab/eslint-config
+npm i -D @chialab/eslint-config
+```
+
+```sh
+yarn add -D @chialab/eslint-config
 ```
 
 Create a `.eslintrc.json` file and add the configuration:
@@ -29,18 +37,7 @@ Create a `.eslintrc.json` file and add the configuration:
 ```jsonc
 {
     "extends": [
-        // JavaScript environment
-        "@chialab/eslint-config/javascript"
-        // JavaScript/Browser specific environment with global DOM support
-        "@chialab/eslint-config/javascript/browser"
-        // JavaScript/Node specific environment
-        "@chialab/eslint-config/javascript/node"
-        // TypeScript environment
-        "@chialab/eslint-config/typescript"
-        // TypeScript/Browser specific environment with global DOM support
-        "@chialab/eslint-config/typescript/browser"
-        // TypeScript/Node specific environment
-        "@chialab/eslint-config/typescript/node"
+        "@chialab/eslint-config"
     ]
 }
 ```
