@@ -1,5 +1,11 @@
 # @chialab/eslint-config
 
+## 4.0.3
+
+### Patch Changes
+
+- b144588: Remove deprecated `plugin-syntax-import-assertions` parser plugin.
+
 ## 4.0.2
 
 ### Patch Changes
