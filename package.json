@@ -18,6 +18,9 @@
     "url": "https://github.com/chialab/eslint-config/issues"
   },
   "homepage": "https://github.com/chialab/eslint-config",
+  "peerDependencies": {
+    "eslint": "^7.0.0 || ^8.0.0"
+  },
   "dependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.13",
