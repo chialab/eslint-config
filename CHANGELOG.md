@@ -1,5 +1,11 @@
 # @chialab/eslint-config
 
+## 4.0.4
+
+### Patch Changes
+
+- 051914a: Add eslint to peer dependencies.
+
 ## 4.0.3
 
 ### Patch Changes
