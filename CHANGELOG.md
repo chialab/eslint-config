@@ -1,5 +1,11 @@
 # @chialab/eslint-config
 
+## 4.1.0
+
+### Minor Changes
+
+- 8db6995: Remove `mocha` plugin, update typescript-eslint.
+
 ## 4.0.4
 
 ### Patch Changes
