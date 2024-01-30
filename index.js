@@ -5,19 +5,16 @@ module.exports = {
         'es2020': true,
         'es2021': true,
         'shared-node-browser': true,
-        'mocha': true,
     },
     extends: [
         'eslint:recommended',
         'plugin:jsx-a11y/recommended',
         'plugin:lit-a11y/recommended',
-        'plugin:mocha/recommended',
     ],
     plugins: [
         'import',
         'jsx-a11y',
         'lit-a11y',
-        'mocha',
     ],
     parser: '@babel/eslint-parser',
     parserOptions: {
@@ -109,7 +106,6 @@ module.exports = {
             ignoreNonDOM: true
         }],
         'lit-a11y/img-redundant-alt': 1,
-        'mocha/no-mocha-arrows': 0,
     },
     settings: {
         'import/extensions': [
