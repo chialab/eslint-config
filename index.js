@@ -105,6 +105,7 @@ module.exports = {
         'jsx-a11y/no-autofocus': [2, {
             ignoreNonDOM: true
         }],
+        'jsx-a11y/img-redundant-alt': 1,
         'lit-a11y/img-redundant-alt': 1,
     },
     settings: {
