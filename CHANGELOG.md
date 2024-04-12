@@ -1,5 +1,11 @@
 # @chialab/eslint-config
 
+## 4.1.1
+
+### Patch Changes
+
+- 5759d63: Fix `jsx-a11y/img-redundant-alt` severity.
+
 ## 4.1.0
 
 ### Minor Changes
